@@ -85,6 +85,7 @@ if(req.user)
       })
   })
 }else {
+  console.log("NOT FINDING USER ", req.user)
   res.send("access denied")
 }
 
